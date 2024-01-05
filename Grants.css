@@ -1,0 +1,304 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Grants.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 180vh;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon{
+  width: 800px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  float: left;
+  padding-top: 20px;
+  text-decoration: solid;
+  
+
+}
+
+.menu{
+  width: 1200px;
+  float: left;
+  height: 70px;
+
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 70px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+text-decoration: none;
+color:white;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+
+
+ul li a:hover {
+  color: #ff7200;
+}
+
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 870px;
+
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: #000;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+    /* Common styles for .abt, .Online-courses, .Data-Sciences, and .Data */
+    .abt, .Online-courses, .Data-Sciences, .Data {
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      letter-spacing: 3px;
+    }
+
+    /* Styles for .abt */
+    .abt {
+      text-decoration: underline;
+      left: 15%;
+      top: 30%;
+    }
+
+
+
+    /* Styles for .Online-courses */
+    .Online-courses {
+      text-decoration: underline;
+      left: 15%;
+      top: 60%;
+    }
+
+.Thesis{
+float: left;
+margin-top: 40px;
+margin-left: 40px;
+letter-spacing: 3px;
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+color: #fffdfd; /* Dark gray text color */
+background-color: #fa7c0711; /* Light gray background color */
+  
+}
+.BTTP {
+
+  margin-left: 120px;
+}
+.Research{
+  margin-left:120px ;
+
+}
+
+
+
+
+
+/* Common styles for the sections */
+.Tropical,
+.Global-warming,
+.Climate-water,
+.Project,
+.Data {
+  float: left;
+  margin-left: 30px;
+  letter-spacing: 3px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff; /* Dark gray text color */
+  background-color: #ff660015; /* Light gray background color */
+  
+  padding: 10px; /* Add padding for better readability */
+}
+
+/* Unique styles for each section */
+.Tropical {
+  margin-top: 150px;
+}
+
+.Global-warming,
+.Climate-water,
+.Project {
+  margin-top: 40px;
+}
+
+.Data {
+  margin-top: 880px;
+}
+
+/* Styles for specific elements in each section */
+.Pro,
+.G-TF,
+.Chicago,
+.G-TF1,
+.Geneva,
+.G-TF2,
+.Google,
+.G-TF3,
+.IBM,
+.G-TF4 {
+  margin-left: 120px;
+}
+
+/* Adjusting text colors for better readability on light background */
+.Tropical,
+.Global-warming,
+.Climate-water,
+.Project,
+.Data {
+  color: #ffffff; /* Dark gray text color */
+  font-weight: bold;
+
+}
+
+/* Adjusting text colors for better readability on light background */
+.Pro,
+.G-TF,
+.Chicago,
+.G-TF1,
+.Geneva,
+.G-TF2,
+.Google,
+.G-TF3,
+.IBM,
+.G-TF4 {
+  color: #ffffff; /* Blue text color */
+}
+
+
+
+/* Container holding the image and the text */
+.container {
+  position: absolute;
+  width: 350px;
+  float: right;
+  margin-left: 67%;
+  margin-top: 300px;
+  border: 2px solid #ff7200; /* Specify the border style */
+  border-radius: 8px; /* Increase border radius for a softer look */
+  overflow: hidden; /* Ensure the border doesn't overlap with the image */
+}
+
+/* Image inside the container */
+.container img {
+  display: block;
+  width: 100%;
+  border-radius: 6px; /* Optional: Apply border radius to the image */
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Use rgba for a semi-transparent background */
+  color: white;
+  padding: 10px;
+}
+
+.mail {
+  float: right;
+  padding-top: 380px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+}
+
+.mail img {
+  margin-bottom: 10px;
+  padding-left: 80px;
+
+
+}
+
+.mail p.Email {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.mail a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+
+.mail a:hover {
+  color: #0056b3;
+}

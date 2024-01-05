@@ -1,0 +1,281 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(pexels-ready-made-3847646.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon{
+  width: 800px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  float: left;
+  padding-top: 20px;
+  text-decoration: solid;
+  
+
+}
+
+.menu{
+  width: 1200px;
+  float: left;
+  height: 70px;
+
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 70px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+text-decoration: none;
+color:white;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+
+
+ul li a:hover {
+  color: #ff7200;
+}
+
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 870px;
+
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: #000;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.abt {
+position: absolute;
+margin: 0%;
+padding: 0%;
+color: #fff;
+left: 25%;
+top: 30%;
+text-decoration: solid;
+letter-spacing: 3px;
+}
+
+.content {
+  position: absolute;
+  color: #333; /* Darkened text color for better readability */
+  margin-left: 100px;
+  left: 5%;
+  top: 45%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font stack */
+  text-align: justify;
+  letter-spacing: 1px; /* Smaller letter spacing for readability */
+  line-height: 1.5; /* Increased line height for better spacing */
+}
+
+.graduate {
+  font-weight: normal; /* Make the text bold for emphasis */
+  font-size: 1em; /* Slightly increased font size */
+}
+
+.Multi {
+  padding-top: 20px;
+  padding-right: 400px;
+}
+
+.Video {
+  padding-right: 600px;
+  padding-top: 20px;
+  
+}
+
+.Believ {
+  padding-right: 600px; /* Adjust as needed */
+  padding-top: 680px; /* Adjust as needed */
+  position: absolute;
+  padding-bottom: 100px;
+  color: #333; /* Darkened text color for better readability */
+  margin-left: 100px;
+  left: 5%;
+  top: 45%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font stack */
+  text-align: justify;
+  letter-spacing: 1px; /* Smaller letter spacing for readability */
+  line-height: 1.5; /* Increased line height for better spacing */
+}
+
+.Language {
+  padding-right: 600px; /* Adjust as needed */
+  padding-top: 540px; /* Adjust as needed */
+  position: absolute;
+  color: #333; /* Darkened text color for better readability */
+  margin-left: 100px;
+  left: 5%;
+  top: 45%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font stack */
+  text-align: justify;
+  letter-spacing: 1px; /* Smaller letter spacing for readability */
+  line-height: 1.5; /* Increased line height for better spacing */
+}
+
+
+
+/* Additional styling for better readability */
+body {
+  background-color: #f4f4f4; /* Light background color */
+}
+.container {
+  width: 500px;
+  height: 600px;
+  position: relative;
+  margin-top: 370px;
+  margin-left: 340px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  border: 20px solid #ffffff;
+  box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+  border-radius: 8px;
+}
+
+.wrapper {
+  width: 600%;
+  height: 100%;
+  display: flex;
+  animation: slide 25s infinite ease-in-out; /* Added ease-in-out for smoother transitions */
+}
+
+.wrapper img {
+  width: 16.666%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8; /* Adjust opacity as needed for a subtle effect */
+  transition: opacity 0.5s ease; /* Added transition for smooth opacity changes */
+}
+
+.wrapper img:hover {
+  opacity: 1; /* Adjust opacity on hover for a more dynamic effect */
+}
+
+@keyframes slide {
+  0%, 16.666% {
+    transform: translateX(0);
+  }
+  16.667%, 33.333% {
+    transform: translateX(-16.666%);
+  }
+  33.334%, 50% {
+    transform: translateX(-33.333%);
+  }
+  50.001%, 66.666% {
+    transform: translateX(-50%);
+  }
+  66.667%, 83.333% {
+    transform: translateX(-66.666%);
+  }
+  83.334%, 100% {
+    transform: translateX(-83.333%);
+  }
+}
+
+.mail {
+  float: right;
+  padding-top: 150px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+}
+
+.mail img {
+  margin-bottom: 10px;
+  padding-left: 80px;
+
+
+}
+
+.mail p.Email {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.mail a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+
+.mail a:hover {
+  color: #0056b3;
+}

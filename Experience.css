@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Experience.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 150vh;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon{
+  width: 800px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  float: left;
+  padding-top: 20px;
+  text-decoration: solid;
+  
+
+}
+
+.menu{
+  width: 1200px;
+  float: left;
+  height: 70px;
+
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 70px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+text-decoration: none;
+color:white;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+
+
+ul li a:hover {
+  color: #ff7200;
+}
+
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 870px;
+
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: #000;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.abt {
+position: absolute;
+margin: 0%;
+padding: 0%;
+color: #fff;
+left: 25%;
+top: 30%;
+text-decoration: solid;
+letter-spacing: 3px;
+}
+
+.Ward {
+  padding-top: 250px;
+  padding-left: 35px;
+  color: #faf3f3; /* Darkened text color for better readability */
+  font-family: 'Arial', sans-serif; /* Updated font stack */
+}
+
+.Ward ol {
+  list-style: none; /* Removed default list styling */
+  counter-reset: my-counter; /* Reset the counter for custom numbering */
+}
+
+.Ward li {
+  position: relative;
+  padding-left: 20px; /* Added padding for better spacing */
+  margin-bottom: 20px; /* Added margin for better separation between list items */
+}
+
+.Ward li:before {
+  content: counter(my-counter); /* Use a counter for custom numbering */
+  counter-increment: my-counter; /* Increment the counter */
+  position: absolute;
+  left: -20px; /* Adjusted the positioning for custom numbering */
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff; /* Custom color for numbering background */
+  color: #fff; /* Custom color for numbering text */
+  border-radius: 50%; /* Rounded border for a circular background */
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+
+/* Additional styling for better readability */
+body {
+  background-color: #f8f8f8; /* Light background color */
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.mail {
+  float: right;
+  padding-top: 400px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+}
+
+.mail img {
+  margin-bottom: 10px;
+  padding-left: 80px;
+
+
+}
+
+.mail p.Email {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.mail a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+
+.mail a:hover {
+  color: #0056b3;
+}
